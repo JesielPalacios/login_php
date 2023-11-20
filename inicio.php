@@ -11,6 +11,10 @@
   <h1>Tienda Mery</h1>
 
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti possimus ratione assumenda placeat! Molestiae quae minus commodi dolores, facere nihil optio at quia, suscipit fuga expedita, natus maxime perspiciatis.</p>
+
+  <script>
+    if (!localStorage.usuario) window.location.href = 'login.php'
+  </script>
 </body>
 
 </html>

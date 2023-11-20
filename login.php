@@ -13,7 +13,7 @@
   <div class="contenedor">
     <h1>Inicio de sesión</h1>
 
-    <form action="validacion.php" method="post">
+    <form action="validacion.php" method="post" id="myForm">
       <div class="campo">
         <label for="correo">Correo electrónico</label>
         <input type="email" name="correo" placeholder="Correo aquí">
