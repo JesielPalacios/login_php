@@ -12,11 +12,11 @@ $consulta = "select * from cliente where correo='$varCorreo' and contrasena='$va
 
 $resultado = mysqli_query($conexion, $consulta);
 
-
 $filas = mysqli_num_rows($resultado);
 
 if ($filas) {
   $nombreUsuarioDB = valorDePropiedad($resultado, 0, "nombre");
+
 ?>
   <?php
   include('login.php');
